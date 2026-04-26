@@ -9,10 +9,13 @@
 </head>
 <body>
 
-    <div class="container mt-4">
-        @yield('content')
-    </div>
+<div class="container mt-4">
+    @yield('content')
+</div>
 
-    <script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
+
+@yield('scripts')
+
 </body>
 </html>
